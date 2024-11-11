@@ -1,0 +1,8 @@
+env.packagenameCamelCase = 'ParkingApp'
+env.emboldRepoUid = 'd08cc38fa424f19ad63bf56996de00f7'
+env.classCoverageTargets = '0, 0, 0'
+env.methodCoverageTargets = '0, 0, 0'
+env.lineCoverageTargets = '0, 0, 0'
+env.conditionalCoverageTargets = '0, 0, 0'
+env.devStream = 'core'
+env.developers = 'shishir.aithal@lisec.com,nitish.unvi@lisec.com,ashutosh.madhav@lisec.com,jay.patel@lisec.com'

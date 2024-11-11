@@ -1,0 +1,36 @@
+﻿{
+    "profiles": {
+        "ParkingApp.Service": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "applicationUrl": "http://localhost:5000",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        "ParkingApp.Service.Development": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "applicationUrl": "http://localhost:5000",
+          "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "DEvelopment",
+            "base.premise.type": "environment", // environment / prem / cloud
+            "base.database.type": "postgres", //postgres / sqlite / sqlserver / oracle / inmemory
+            "base.database.hostname": "atse-ngt-core1.lisec.internal",
+            "base.database.password": "lisec",
+            "base.database.username": "liprod",
+            "base.database.databasename": "nitish-main-01",
+            "base.database.port": "5432",
+            "base.logging.console.enable": "true",
+            "base.logging.sensitivedata": "true",
+            "base.logging.elasticsearch.enable": "false", // elastic and telemetry
+            "base.logging.elasticsearch.host": "http://atse-ngdev1:9200/", // elastic and telemetry
+            "ELASTIC_APM_SERVER_URLS": "http://atse-ngdev1:8200/", // telemetry
+            "authentication.authority.url": "https://atse-ngd-core1.lisec.internal:48443",
+            "swagger.client.id": "parking-app",
+            "swagger.client.secret": "mysecret",
+            "swagger.api.scope": "openid profile email offline_access default.manage"
+          }
+        }
+    }
+}

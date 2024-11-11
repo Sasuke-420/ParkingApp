@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingApp.Service", "ParkingApp.Service\ParkingApp.Service.csproj", "{94E963CC-AEBF-4711-95D0-7975D012C946}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingApp.Test", "ParkingApp.Test\ParkingApp.Test.csproj", "{E57CDFC5-97B6-401F-A33B-DBF9E3DAC262}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2AF99C4B-893F-4132-B8BA-08D42990B598}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		coverlet.runsettings = coverlet.runsettings
+		Dockerfile = Dockerfile
+		Jenkins-env.groovy = Jenkins-env.groovy
+		Jenkinsfile = Jenkinsfile
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94E963CC-AEBF-4711-95D0-7975D012C946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E963CC-AEBF-4711-95D0-7975D012C946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E963CC-AEBF-4711-95D0-7975D012C946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E963CC-AEBF-4711-95D0-7975D012C946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57CDFC5-97B6-401F-A33B-DBF9E3DAC262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57CDFC5-97B6-401F-A33B-DBF9E3DAC262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57CDFC5-97B6-401F-A33B-DBF9E3DAC262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57CDFC5-97B6-401F-A33B-DBF9E3DAC262}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB5CBC06-D9CC-4563-8D60-0D6A0859C8D7}
+	EndGlobalSection
+EndGlobal
